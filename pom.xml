@@ -14,6 +14,11 @@
         </dependency>
         
         <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>7.0.3</version>
+        </dependency>
+        <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>jakarta.persistence</artifactId>
             <version>2.2.3</version>
