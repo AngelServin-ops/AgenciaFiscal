@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.mycompany.proyectobasesdedatos"},{"l":"dominio"},{"l":"implementaciones"},{"l":"interfaces"},{"l":"interfaz"},{"l":"test"},{"l":"utils"}];updateSearchResults();
