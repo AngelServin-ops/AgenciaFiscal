@@ -34,7 +34,7 @@ public class CostosPlacas extends javax.swing.JFrame {
 
     public CostosPlacas() {
         initComponents();
-        this.setLocationRelativeTo(null);
+        setLocationRelativeTo(null);
     }
 
     public CostosPlacas(String rfc) {

@@ -38,7 +38,7 @@ public class RegistroAuto extends javax.swing.JFrame {
 
     public RegistroAuto() {
         initComponents();
-        this.setLocationRelativeTo(null);
+        setLocationRelativeTo(null);
         this.rfc = null;
     }
 
@@ -183,6 +183,11 @@ public class RegistroAuto extends javax.swing.JFrame {
                 lblSerieMouseClicked(evt);
             }
         });
+        lblSerie.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                lblSerieKeyTyped(evt);
+            }
+        });
         getContentPane().add(lblSerie, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 200, 420, 60));
 
         lblAtras.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -286,6 +291,12 @@ public class RegistroAuto extends javax.swing.JFrame {
 
         dispose();
     }//GEN-LAST:event_lblAtrasMouseClicked
+
+    private void lblSerieKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_lblSerieKeyTyped
+        if (lblSerie.getText().length() >= 7) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_lblSerieKeyTyped
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -79,6 +79,7 @@ interfaz\RenovacionPlacas$4.class
 interfaz\ConsultaPersona$8.class
 interfaz\HistorialTramite$5.class
 interfaz\ConsultaPersonaTramite$7.class
+interfaz\RegistroAuto$9.class
 interfaces\IVehiculoDAO.class
 dominio\Encriptacion.class
 interfaz\CostosPlacas$2.class

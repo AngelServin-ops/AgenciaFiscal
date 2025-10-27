@@ -74,6 +74,7 @@ public class ReporteTramite extends javax.swing.JFrame {
         this.rfc = null;
         this.configPaginado = new ConfiguracionPaginado(0, 5);
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     private void insertarDatosPersona() {

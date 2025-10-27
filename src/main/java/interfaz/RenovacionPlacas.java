@@ -37,8 +37,7 @@ public class RenovacionPlacas extends javax.swing.JFrame {
 
     public RenovacionPlacas() {
         initComponents();
-        this.setLocationRelativeTo(null);
-
+        setLocationRelativeTo(null);
         this.rfc = null;
     }
 
